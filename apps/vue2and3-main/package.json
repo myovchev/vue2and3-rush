@@ -4,6 +4,9 @@
   "description": "Demonstrate problems using vue 2 and vue 3 in the same project",
   "main": "index.js",
   "scripts": {
+    "build": "rushx build:dep && rushx build:main",
+    "build:dep": "cd node_modules/vue2and3-dependency && npx webpack",
+    "build:main": "node_modules/.bin/webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
