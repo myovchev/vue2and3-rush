@@ -1,0 +1,26 @@
+{
+  "name": "vue2and3-main",
+  "version": "1.0.0",
+  "description": "Demonstrate problems using vue 2 and vue 3 in the same project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apostrophecms/vue2and3-main.git"
+  },
+  "author": "Apostrophe Technologies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apostrophecms/vue2and3-main/issues"
+  },
+  "homepage": "https://github.com/apostrophecms/vue2and3-main#readme",
+  "dependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "vue": "^3.2.40",
+    "vue-loader": "^17.0.0",
+    "vue2and3-dependency": "github:boutell/vue2and3-dependency"
+  }
+}
